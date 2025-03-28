@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://j68i7bco2htt"]
+[gd_scene load_steps=3 format=3 uid="uid://j68i7bco2htt"]
+
+[ext_resource type="PackedScene" uid="uid://d30x1tpnxmtat" path="res://scene/tile.tscn" id="1_hkd0x"]
+[ext_resource type="PackedScene" uid="uid://cixvsiecdsi34" path="res://scene/player.tscn" id="2_gxs3l"]
 
 [node name="Word" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_gxs3l")]
+position = Vector2(33, 3)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, 6)
+zoom = Vector2(6, 6)
+
+[node name="TileMap" parent="." instance=ExtResource("1_hkd0x")]
+position = Vector2(0, 6)
