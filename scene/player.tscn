@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://cixvsiecdsi34"]
+[gd_scene load_steps=7 format=3 uid="uid://cixvsiecdsi34"]
 
+[ext_resource type="Script" uid="uid://b7eirpaqq55ae" path="res://script/player.gd" id="1_hjaqi"]
 [ext_resource type="Texture2D" uid="uid://c8mabn1j0vggb" path="res://assese/AnimationSheetall.png" id="1_xo3ru"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hjaqi"]
@@ -29,6 +30,7 @@ radius = 6.0
 height = 16.0
 
 [node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_hjaqi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ct4mp")
