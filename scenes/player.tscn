@@ -127,14 +127,12 @@ height = 16.0
 script = ExtResource("1_hjaqi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(1, -12)
+position = Vector2(0, -5)
 sprite_frames = SubResource("SpriteFrames_ct4mp")
 animation = &"jump"
 autoplay = "idle"
-frame = 2
-frame_progress = 0.398641
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -9)
+position = Vector2(-1, -2)
 shape = SubResource("CapsuleShape2D_xo3ru")
 debug_color = Color(0.890196, 0.6, 0.701961, 0.419608)
