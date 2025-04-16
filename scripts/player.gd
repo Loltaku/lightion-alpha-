@@ -14,6 +14,7 @@ func _physics_process(delta):
 		velocity.y += gravity * delta
 
 	# 土狼时间
+	
 
 	# 处理跳跃
 	if Input.is_action_just_pressed("jump") and is_on_floor():
