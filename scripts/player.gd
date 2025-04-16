@@ -1,13 +1,12 @@
 extends CharacterBody2D
 
-const SPEED := 93.0  # 倒过来就是 39 ( • ̀ω•́ )✧
-const JUMP_VELOCITY = -239.0  # 爱 miku
+@export var SPEED := 93.0  # 倒过来就是 39 ( • ̀ω•́ )✧
+@export var JUMP_VELOCITY = -239.0  # 爱 miku
 
 # 将项目设置中的重力与刚体节点同步
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D  # 后期请替换成 AnimationTree 哦~
-@onready var coyote_timer: Timer = $CoyoteTimer  # 单次触发的timer节点
 
 func _physics_process(delta):
 	# 添加重力
