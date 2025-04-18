@@ -28,6 +28,7 @@ func _physics_process(delta):
 # 处理跳跃
 	if Input.is_action_just_pressed("jump") and _is_on_floor():  # 如果玩家刚刚按下跳跃键，并且真！在地面上
 		velocity.y = JUMP_VELOCITY
+		last_grounded_time = Time.get_ticks_msec() / 1000.0 - (COYOTE_TIME + 0.1)  # 只需比 COYOTE_TIME 大即可		
 
 #region 动画控制v0.1 【if 函数直接控制】
 # 翻转精灵图
