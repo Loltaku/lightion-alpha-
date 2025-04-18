@@ -21,10 +21,9 @@ editor_draw_drag_margin = true
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(333, 0)
 
 [node name="Background" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2(160, 90)
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("3_3vuot")
 
