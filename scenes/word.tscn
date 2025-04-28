@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://j68i7bco2htt"]
+[gd_scene load_steps=4 format=4 uid="uid://j68i7bco2htt"]
 
 [ext_resource type="Script" uid="uid://cisjc3ohkgbft" path="res://scripts/word.gd" id="1_3vuot"]
 [ext_resource type="PackedScene" uid="uid://cixvsiecdsi34" path="res://scenes/player.tscn" id="2_gxs3l"]
 [ext_resource type="TileSet" uid="uid://ce83bvaem8nl8" path="res://assets/word.tres" id="2_ve73v"]
-[ext_resource type="Texture2D" uid="uid://mk1mdxk1cnf4" path="res://assets/Background.png" id="3_3vuot"]
 
 [node name="Word" type="Node2D"]
 script = ExtResource("1_3vuot")
@@ -17,15 +16,6 @@ position_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 editor_draw_drag_margin = true
-
-[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
-
-[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_mirroring = Vector2(333, 0)
-
-[node name="Background" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-scale = Vector2(0.6, 0.6)
-texture = ExtResource("3_3vuot")
 
 [node name="Map" type="Node2D" parent="."]
 
