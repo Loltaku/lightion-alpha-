@@ -1,7 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://cixvsiecdsi34"]
+[gd_scene load_steps=17 format=3 uid="uid://cixvsiecdsi34"]
 
 [ext_resource type="Script" uid="uid://b7eirpaqq55ae" path="res://scripts/player.gd" id="1_hjaqi"]
 [ext_resource type="Texture2D" uid="uid://c8mabn1j0vggb" path="res://assets/AnimationSheetall.png" id="1_xo3ru"]
+[ext_resource type="Texture2D" uid="uid://77mrrnp2ouau" path="res://assets/light.tres" id="3_qhqgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hjaqi"]
 atlas = ExtResource("1_xo3ru")
@@ -111,13 +112,16 @@ height = 16.0
 script = ExtResource("1_hjaqi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -5)
+position = Vector2(0, -3)
 sprite_frames = SubResource("SpriteFrames_ct4mp")
-animation = &"jump"
+animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.763112
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -2)
+position = Vector2(-1, 0)
 shape = SubResource("CapsuleShape2D_xo3ru")
 debug_color = Color(0.890196, 0.6, 0.701961, 0.419608)
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+color = Color(0.933333, 1, 0.8, 1)
+texture = ExtResource("3_qhqgy")
