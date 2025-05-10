@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://c7cnta2nabgr6"
-path="res://.godot/imported/fusion-pixel-8px-proportional-ja.otf-9ad52ee65499e1b756199a8499ca158d.fontdata"
+path="res://.godot/imported/fusion-pixel-8px-proportional-ja.otf-562405b8b2d5f859c28b0e9d1a98de03.fontdata"
 
 [deps]
 
-source_file="res://assets/fusion-pixel-8px-proportional-ja.otf"
-dest_files=["res://.godot/imported/fusion-pixel-8px-proportional-ja.otf-9ad52ee65499e1b756199a8499ca158d.fontdata"]
+source_file="res://assets/fonts/fusion-pixel-8px-proportional-ja.otf"
+dest_files=["res://.godot/imported/fusion-pixel-8px-proportional-ja.otf-562405b8b2d5f859c28b0e9d1a98de03.fontdata"]
 
 [params]
 

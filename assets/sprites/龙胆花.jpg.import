@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7aib6bvbfotc"
-path="res://.godot/imported/bg-04.png-a033a4b036a95bec71499a5b2010ba9b.ctex"
+uid="uid://buhodel0ot3p"
+path="res://.godot/imported/龙胆花.jpg-fb211ebab30a97219179f84914279536.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/bg-04.png"
-dest_files=["res://.godot/imported/bg-04.png-a033a4b036a95bec71499a5b2010ba9b.ctex"]
+source_file="res://assets/sprites/龙胆花.jpg"
+dest_files=["res://.godot/imported/龙胆花.jpg-fb211ebab30a97219179f84914279536.ctex"]
 
 [params]
 

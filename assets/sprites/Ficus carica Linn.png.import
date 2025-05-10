@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7aib6bvbfotc"
-path="res://.godot/imported/bg-04.png-a033a4b036a95bec71499a5b2010ba9b.ctex"
+uid="uid://cwf2jxo82jpcw"
+path="res://.godot/imported/Ficus carica Linn.png-729699c3bb9c99d649f9b6471e42c529.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/bg-04.png"
-dest_files=["res://.godot/imported/bg-04.png-a033a4b036a95bec71499a5b2010ba9b.ctex"]
+source_file="res://assets/sprites/Ficus carica Linn.png"
+dest_files=["res://.godot/imported/Ficus carica Linn.png-729699c3bb9c99d649f9b6471e42c529.ctex"]
 
 [params]
 

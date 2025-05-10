@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8mabn1j0vggb"
-path="res://.godot/imported/AnimationSheetall.png-674d0bdd97b580244e54ebf839ab2e54.ctex"
+uid="uid://c7mf7h4sy0fr1"
+path="res://.godot/imported/金琥.jpg-634fb54b52cd3495905248a700c6489d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/AnimationSheetall.png"
-dest_files=["res://.godot/imported/AnimationSheetall.png-674d0bdd97b580244e54ebf839ab2e54.ctex"]
+source_file="res://assets/sprites/金琥.jpg"
+dest_files=["res://.godot/imported/金琥.jpg-634fb54b52cd3495905248a700c6489d.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7aib6bvbfotc"
-path="res://.godot/imported/bg-04.png-a033a4b036a95bec71499a5b2010ba9b.ctex"
+uid="uid://bq0fregeljuen"
+path="res://.godot/imported/lamps.png-240616ac3fe5336613d70f98629924b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/bg-04.png"
-dest_files=["res://.godot/imported/bg-04.png-a033a4b036a95bec71499a5b2010ba9b.ctex"]
+source_file="res://assets/sprites/lamps.png"
+dest_files=["res://.godot/imported/lamps.png-240616ac3fe5336613d70f98629924b0.ctex"]
 
 [params]
 
